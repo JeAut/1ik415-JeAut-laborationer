@@ -21,6 +21,40 @@
         <br>
         <br>
         <br>
+        <br>
+        <h3>Kontaktformulär</h3>
+        <br>
+        <fieldset style="width: 300px;">
+            <legend>Fråga</legend>
+            <label for="select">Ärendetyp</label>
+            <select name="Ärende" id="Ärende">
+            <option>Vad gäller frågan?</option>
+            <option>Allmänna frågor</option>
+            <option>Publikationer</option>
+            <option>Kontakt</option>
+            </select>
+            <br><label for="rubrik">Rubrik:</label>
+            <input type="text" name="rubrik" id="rubrik" />
+            <br><label for="fraga">Fråga:</label>
+            <textarea name="fraga" id="fraga" cols="25" rows="3"
+            wrap="physical"></textarea>
+        </fieldset>
+        <fieldset style="width: 300px;">
+            <legend>Kontakt</legend>
+            
+            
+            <input type="radio" name="kontakt" id="mail" value="mail" />
+            <label for="var">Kontakta mig via mail</label> <br />
+
+            <input type="radio" name="kontakt" id="telefon" value="telefon" />
+            <label for="sommar">Kontakta mig via telefon</label> <br />
+        </fieldset>
+        
+        <input type="submit" name="submit" id="submit" value="Skicka frågan" />
+        <input type="reset" name="reset" id="reset" value="Återställ formuläret" />
+         
+        <br>
+        <br>
         <ul>
             <li><a href="../index.html"> Start</a></li>
             <li><a href="Presentation.html"> Presentaion</a></li>
