@@ -4,26 +4,34 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
         meta
+        <link rel="stylesheet" href="/css/style.css"/>
     </head>
     <body>
         <h1>Jennifer Autrieb</h1>
-        <br><h3>Adress</h3>
-        <br>Silkeborgsgatan 6
-        <br>392 43 Kalmar
-        <br>Sverige
-        <br>
-        <br><h3>Mail</h3>
-        <br>jennifer.autrieb@hotmail.com
-        <br>ja223br@student.lnu.se
-        <br>
-        <br><h3>Mobil</h3>
-        <br>070-35 00 841
-        <br>
-        <br>
-        <br>
-        <br>
+        
+        <ul>
+            <nav><li><a href="../index.html"> Start</a></li>
+            <li><a href="Presentation.html"> Presentaion</a></li>
+            <li><a href="laborationer.html"> Laborationer</a></li></nav>
+        </ul>
+        
+        <container><h3>Adress</h3>
+        Silkeborgsgatan 6
+        392 43 Kalmar
+        Sverige
+        
+        <h3>Mail</h3>
+        jennifer.autrieb@hotmail.com
+        ja223br@student.lnu.se
+        
+        <h3>Mobil</h3>
+        070-35 00 841
+        
+        
+        
+        
         <h3>Kontaktformulär</h3>
-        <br>
+        
         <form id="formulär" name="formulär" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
         <fieldset style="width: 300px;">
             <legend>Fråga</legend>
@@ -34,9 +42,9 @@
             <option>Publikationer</option>
             <option>Kontakt</option>
             </select>
-            <br><label for="rubrik">Rubrik:</label>
+            <p><label for="rubrik">Rubrik:</label></p>
             <input type="text" name="rubrik" id="rubrik" />
-            <br><label for="fraga">Fråga:</label>
+            <p><label for="fraga">Fråga:</label></p>
             <textarea name="fraga" id="fraga" cols="25" rows="3"
             wrap="physical"></textarea>
         </fieldset>
@@ -54,12 +62,6 @@
         <input type="submit" name="submit" id="submit" value="Skicka frågan" />
         <input type="reset" name="reset" id="reset" value="Återställ formuläret" />
          </form>
-        <br>
-        <br>
-        <ul>
-            <li><a href="../index.html"> Start</a></li>
-            <li><a href="Presentation.html"> Presentaion</a></li>
-            <li><a href="laborationer.html"> Laborationer</a></li>
-        </ul>
+        </container>
     </body>
 </html>
