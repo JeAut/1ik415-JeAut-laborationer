@@ -1,3 +1,17 @@
-nav {display:block; float:left;}
-container {display:block; background-color:white; margin-left:200px;}
-header {display:block;}
+/*Layout*/
+
+#navigation {display:block; float:left; background-color:#EED6BE;
+}
+
+#container {display:block; background-color:#D8B774; margin-left:200px;
+}
+
+#header {display:block; margin-left:200px; background-color:#986C40;
+}
+
+#body {margin-right:200px; margin-left:200px; background-color:#D8B774;
+}
+
+p {color:#5F350B;}
+
+
