@@ -1,6 +1,6 @@
 /*Layout*/
 
-#navigation {display:block; float:left; background-color:#EED6BE;
+#navigation {display:block; float:left; ;
 }
 
 #container {display:block; background-color:#D8B774; margin-left:200px;
@@ -13,5 +13,51 @@
 }
 
 p {color:#5F350B;}
+
+/*Listelement <li> meny*/
+
+#bc {
+    background-color:#D8B774;
+}
+
+#ulsidemenu {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    border-bottom:1px solid #6F3E04;
+    width:150px;
+    background-color:#F6DEA5;
+}
+
+#ulsidemenu2 {
+    border-top:1px solid #6F3E04;
+    border-left:1px solid #6F3E04;
+    border-right:1px solid #6F3E04;
+}
+
+a {
+    text-decoration:none;
+    display:block;
+    width:130px;
+    color:#333333;
+    font-weight:bold;
+    padding:2px 10px;
+}
+a:hover {
+    background-color:#B9BB79;
+    color:#EEEEDC;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
