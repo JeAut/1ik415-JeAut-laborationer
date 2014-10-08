@@ -2,7 +2,14 @@
     "run": {
         "@path": "/.c9/runners",
         "configs": {
-            "json()": {},
+            "json()": {
+                " {}": {
+                    "runner": "Shell command",
+                    "command": "css/style.css",
+                    "debug": true,
+                    "name": " {}"
+                }
+            },
             "@inited": "true"
         }
     },
