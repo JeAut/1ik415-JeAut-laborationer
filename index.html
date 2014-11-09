@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Start</title>
+    <link rel="apple-touch-icon" href="css/jenbookmark.jpg"/>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
     <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-width: 480px)" />
+    <link rel="stylesheet" href="css/HTML5.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="WWW/pics/favicon.ico" type="image/x-icon" />
 </head>
 
@@ -15,20 +18,20 @@
     <div id="bgimage">
         <div id="body">
         
-            <div id="header">
+            <header>
                 <img src="WWW/pics/jenniferheader.png">
                 <h1>Jennifers great website</h1>
-            </div>
+            </header>
 
 
-        <div id="navigation">
-        <ul>
-          <li><a href="index.html" class="active buttonstart"> Start</a></li>
-          <li><a href="WWW/pages/Presentation.html" class="buttonpresent"> Presentation</a></li>
-          <li><a href="WWW/pages/kontakt.html" class="buttonkontakt"> Kontakt</a></li>
-          <li><a href="WWW/pages/laborationer.html" class="buttonlabb"> Laborationer</a></li>
-        </ul>
-        </div>
+        <nav id="navigation">
+            <ul>
+              <li><a href="index.html" class="active buttonstart"> Start</a></li>
+              <li><a href="WWW/pages/Presentation.html" class="buttonpresent"> Presentation</a></li>
+              <li><a href="WWW/pages/kontakt.html" class="buttonkontakt"> Kontakt</a></li>
+              <li><a href="WWW/pages/laborationer.html" class="buttonlabb"> Laborationer</a></li>
+            </ul>
+        </nav>
 
 
 <!--
@@ -57,7 +60,8 @@
                 </div>
             </ul>
 -->
-            <div id="container">
+            <main>
+            <article>
                 <h2>Courseblog</h2>
 
                 <!-- Första inlägget -->
@@ -66,23 +70,45 @@
 
 
                 Written by Jennifer Autrieb, 2014-09-18 Jennifer Autrieb is responsible for all material on this page.
+            </article>
+            
+                <section>
+                    <h3>Kommentarer:</h3>
+                    <p>Calle:</p>
+                    <p>Åh, vad kul att du startat en blogg!!</p>
+                    2014-11-07
+                </section>
 
                 <!-- Andra inlägget -->
+            <article>
                 <h3>Second post</h3>
                 <p><a id="svg">SVG picture</a>
                 </p>
                 <img src="WWW/pics/hs.svg">Written by Jennifer Autrieb, 2014-09-18 Jennifer Autrieb is responsible for all material on this page.
-
+                <section>
+                    <h3>Kommentarer:</h3>
+                    <p>Sara:</p>
+                    <p>Vilken fin bild!</p>
+                    2014-11-07
+                </section>
+            </article>
+            <article>
                 <!-- Tredje inlägget -->
                 <h3 id="Videotaggen">Third post - The video</h3>
                 <video controls id="Videotaggen">
-                    <source src="videos/frozen.mp4" type="video/mp4">
-                        Your browser does not support the <code>video</code> element.
-
+                <source src="videos/frozen.mp4" type="video/mp4">
+                Your browser does not support the <code>video</code> element.
                 </video>
                 <a href="http://www.mobiles24.com/downloads/s/579168-106-frozen_2013_official_teaser_trailer">Source</a>
                 Written by Jennifer Autrieb, 2014-09-18 Jennifer Autrieb is responsible for all material on this page.
-
+                <section>
+                    <h3>Kommentarer:</h3>
+                    <p>Lisa:</p>
+                    <p>Bra trailer!!</p>
+                    2014-11-07
+                </section>
+            </article>
+            <article>
                 <!-- Fjärde inlägget -->
                 <h3>Fourth post</h3>
                 <div id="image">
@@ -102,7 +128,14 @@
                     vis. Ea sea vivendum oportere. Cum porro ipsum detracto ut, atqui vulputate vim ut. At mel mundi tollit tempor, nam meis euripidis laboramus no. Te alii salutatus eum, eum ne doming possit hendrerit. Equidem officiis elaboraret nec
                     ad, eam id velit putant.</p>
                 Written by Jennifer Autrieb, 2014-09-18 Jennifer Autrieb is responsible for all material on this page.
-            </div>
+                <section>
+                    <h3>Kommentarer:</h3>
+                    <p>Fredrik:</p>
+                    <p>Lorem ipsum</p>
+                    2014-11-07
+                </section>
+            </article>
+            </main>
         </div>
     </div>
 </body>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Kontakt</title>
-        
+        <link rel="apple-touch-icon" href="../../css/jenbookmark.jpg"/>
         <link rel="stylesheet" href="../../css/style.css"/>
         <link rel="stylesheet" media="print" href="../../css/print.css"/>
-        <link rel="stylesheet" media="screen and (min-width: 480px)"href="../../css/mobile.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 480px)"href="../../css/mobile.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="../pics/favicon.ico" type="image/x-icon"/>
     </head>
     <body>
@@ -62,36 +63,51 @@
         
         <h3>Kontaktformulär</h3>
         
-        <form id="formulär" name="formulär" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-        <fieldset style="width: 300px;">
+        <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+           <fieldset>
             <legend>Fråga</legend>
-            <label for="select">Ärendetyp</label>
-            <select name="Ärende" id="Ärende">
-            <option>Vad gäller frågan?</option>
-            <option>Allmänna frågor</option>
-            <option>Publikationer</option>
-            <option>Kontakt</option>
-            </select>
-            <p><label for="rubrik">Rubrik:</label></p>
-            <input type="text" name="rubrik" id="rubrik" />
-            <p><label for="fraga">Fråga:</label></p>
-            <textarea name="fraga" id="fraga" cols="25" rows="3"
-            wrap="physical"></textarea>
-        </fieldset>
-        <fieldset style="width: 300px;">
+             <label for="select">Ärendetyp</label>
+             <select name="Ärende" id="Ärende">
+             <option>Vad gäller frågan?</option>
+             <option>Allmänna frågor</option>
+             <option>Publikationer</option>
+             <option>Kontakt</option>
+             </select>
+             <p><label for="rubrik">Rubrik:</label></p>
+             <input type="text" name="rubrik" id="rubrik" />
+             <p><label for="fraga">Fråga:</label></p>
+             <textarea name="fraga" id="fraga" cols="25" rows="3" wrap="physical"></textarea>
+           </fieldset>
+           <fieldset>
             <legend>Kontakt</legend>
-            
-            
-            <input type="radio" name="kontakt" id="mail" value="mail" />
-            <label for="var">Kontakta mig via mail</label> <br />
-
-            <input type="radio" name="kontakt" id="telefon" value="telefon" />
-            <label for="sommar">Kontakta mig via telefon</label> <br />
-        </fieldset>
-        
-        <input type="submit" name="submit" id="submit" value="Skicka frågan" />
-        <input type="reset" name="reset" id="reset" value="Återställ formuläret" />
+             <input type="radio" name="kontakt" id="mail" value="mail" />
+             <label for="var">Kontakta mig via mail</label> <br />
+             <input type="radio" name="kontakt" id="telefon" value="telefon" />
+             <label for="sommar">Kontakta mig via telefon</label> <br />
+             <input type="submit" name="submit" id="submit" value="Skicka frågan" />
+             <input type="reset" name="reset" id="reset" value="Återställ formuläret" />
+           </fieldset>
          </form>
+         
+         <div id="hcard-Jennifer-Pierina-Autrieb" class="vcard">
+          <span class="fn n">
+          <span class="given-name">Jennifer</span>
+          <span class="additional-name">Pierina</span>
+          <span class="family-name">Autrieb</span>
+          </span>
+         <a class="email" href="mailto:jennifer.autrieb@hotmail.com">jennifer.autrieb@hotmail.com</a>
+         <div class="adr">
+         <div class="street-address">Silkeborgsgatan 6</div>
+          <span class="locality">Kalmar</span>
+           , 
+          <span class="postal-code">39243</span>
+
+          <span class="country-name">Sverige</span>
+
+         </div>
+         <div class="tel">0703500841</div>
+          <p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+         </div>
         </div>
         </div>
         </div>

@@ -8,15 +8,50 @@
 	float: none;
 	margin: 0 auto;
 }
-#navigation {
+aside {
 	width: 100%;
 	float: none;
 }
 
-#header {
+header {
     margin: 0 auto;
 }
 
 img {
     max-width:100%;
 }
+
+table {
+	width:100%;
+}
+
+#form {
+	width:100%;
+}
+
+#rubrik {
+	padding:20px;
+}
+
+#fraga {
+	padding:20px;
+}
+
+#mail {
+	width:1.5em;
+	height:1.5em;
+}
+
+#telefon {
+	width:1.5em;
+	height:1.5em;
+}
+
+#submit {
+	padding:10px;
+}
+
+#reset {
+	padding:10px;
+}
+
